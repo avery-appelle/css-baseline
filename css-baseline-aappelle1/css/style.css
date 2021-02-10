@@ -1,0 +1,202 @@
+
+  article {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  img {
+    float: left;
+    margin-right: 1em;
+  }
+
+  footer {
+    font-style: italic;
+    color: #777;
+  }
+
+  /*********************** Your code goes here ***********************/
+  
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #fbfbfb;
+    font-size: 100%;
+    background-image: linear-gradient(#0ff 1px, transparent 1px);
+    background-size: auto 24px;
+  }
+  img{
+    max-width: 80%;
+    height: auto;
+  }
+  h1{
+    color: #72545a;
+    padding-top: 1em;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3em;
+    line-height: 2em;
+    margin-bottom: .5em;
+    text-align: center;
+  }
+  h2{
+    font-size: 2.25em;
+    line-height: 1.333333333333333em;
+    margin-bottom: .6666666666666667em;
+    color: white;
+    background-color: black;
+    padding-right: 23em;
+  }
+  .synopsis{
+    margin-top: 0.25em;
+  }
+  h3{
+    font-size: 1.5em;
+    line-height: 1em;
+    margin-bottom: 1em;
+    background-color: #3b85ef;
+    margin-right: 1em;  
+  }
+  h4{
+    font-size: 1.3125em;
+    line-height: 1.142857142857143em;
+    margin-bottom: 1.142857142857143em;
+    background-color: #3b85ef;
+    margin: 1em;
+  }
+  h5{
+    font-size: 1.125em;
+    line-height: 1.333333333333333em;
+    margin-bottom: 1.333333333333333em;
+  }
+  h6{
+    font-size: 1.125em;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+    text-align: center;
+    margin-top: 1em;
+  }
+  h2, h3, h4, h5, h6{
+    font-family: 'Playfair Display SC', serif;
+  }
+  p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+    margin-right: 2em;
+  }
+  ul{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    padding-bottom: 1em;
+    line-height: 1.5
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .critique{
+    background-color: #a6bb4d;
+    padding-top: 3em;
+    text-align: center;
+    border-radius: 8em;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 4em;
+   }
+  .flex-left{
+    display: flex;
+ }
+ .flex-right{
+  display: flex;
+ }
+ .setting{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+ }
+ .cameo{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+ }
+ .cameo-text{
+  padding-top: 1.3em;
+ }
+ .characters{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  border-radius: 8em;
+ }
+.wart-text{
+ margin-right: 2em;
+ margin-left: 2em;
+}
+
+ .wart{
+  margin-top: 1.6em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  background-color: #87d6ea;
+  align-content: center;
+  padding-left: 20em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+
+ }
+  .yoshi{
+    margin-top: 0.4em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  background-color: #87d6ea;
+  align-content: center;
+  padding-left: 20em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+
+ }
+  .kirby{
+  margin-top: 0.3em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  background-color: #87d6ea;
+  align-content: center;
+  padding-left: 20em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+ }
+ .wart-img, .yoshi-img, .kirby-img{
+  width: 20%;
+  height: auto;
+ }
+ .plot{
+  margin-top: 0.55em;
+ }
+ .plot-container{
+  display: flex;
+ }
+ .wart, .yoshi, .kirby{
+  border-radius: 8em;
+ }
+ hr{
+  margin-top: 1.4em;
+ }
